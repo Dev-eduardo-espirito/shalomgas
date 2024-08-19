@@ -257,6 +257,14 @@ section{
     font-size: 3rem;
     color: #fff;
  }
+
+ .about .row .content h4{
+    font-size: 1.6rem;
+    color: #ccc;
+    margin-top: 35rem;
+    text-align: center;
+    font-style: italic;
+ }
  
  .about .row .content p{
     font-size: 1.6rem;
