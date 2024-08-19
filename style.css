@@ -13,7 +13,6 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
-    
     transition: .2s linear;
 }
 
@@ -67,6 +66,7 @@ section{
     color: #fff;
     background: var(--main-color);
     cursor: pointer;
+    
 }
 
 .btn:hover{
@@ -497,10 +497,6 @@ section{
 .footer .credit span{
     color: var(--main-color);
 }
-
-
-
-
 
 
 
