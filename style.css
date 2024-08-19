@@ -4,7 +4,7 @@
     --main-color: #06a72ece;
     --black: #13131a;
     --bg: #010103;  
-    --border: 0.5rem solid rgba(5, 155, 0, 0.247);   
+    --border: 0.3rem solid rgba(5, 155, 0, 0.247);   
 }
 
 *{
@@ -13,7 +13,7 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    
     transition: .2s linear;
 }
 
@@ -474,6 +474,7 @@ section{
     flex-wrap: wrap;
     padding: 2rem 1;
     gap: 1rem;
+    
 }
 
 .footer .links a{
