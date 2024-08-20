@@ -11,7 +11,6 @@
     <!--Link CSS-->
     <link rel="stylesheet" href="style.css">
 
-
 </head>
 <body>
     <!--Início Seção Cabeçalho-->
@@ -145,14 +144,14 @@
                 <img src="img/P-20.png" alt="P-20" width="100px">
                 <h3>Para empilhadeiras e balonismo</h3>
                 <div class="price"> GLP 20kg</div>
-                <a href="https://wa.me/5511965000005?text=Ol%C3%A1,%20tenho%20interesse%20no%20GLP%2020kg..." class="btn" target="_blank">Peça Gás</a>
+                <a href="https://wa.me/5511953471940?text=Ol%C3%A1,%20tenho%20interesse%20no%20GLP%2020kg..." class="btn" target="_blank">Peça Gás</a>
             </div>
 
             <div class="box">
                 <img src="img/P-45.png" alt="P-45" width="100px">
                 <h3>Para condomínios e indústrias</h3>
                 <div class="price"> GLP 45kg </div>
-                <a href="https://wa.me/5511965000005?text=Ol%C3%A1,%20tenho%20interesse%20no%20GLP%2045kg..." class="btn" target="_blank">Peça Gás</a>
+                <a href="https://wa.me/5511953471940?text=Ol%C3%A1,%20tenho%20interesse%20no%20GLP%2045kg..." class="btn" target="_blank">Peça Gás</a>
             </div>
         </div>
 
@@ -215,27 +214,34 @@
         <h1 class="heading"> <span>Contato</span> Shalom</h1>
         <div class="row">
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.67076841271!2d-46.510252928980975!3d-23.580265115379966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce679d5c7e1261%3A0xcf511fe08e6def51!2sShalom%20G%C3%A1s%20Pastor%20C%C3%ADcero%20-%20Revenda%20Liquig%C3%A1s!5e0!3m2!1spt-PT!2sbr!4v1723993327710!5m2!1spt-PT!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            <form action="">
+                       
+           
+            <form action="https://formsubmit.co/45b99f5d50e4d50bfb53537232db7ca6" method="POST">
+                
                 <h3>Entre em contato</h3>
+
                 <div class="inputBox">
                     <span class="fas fa-user"></span>
-                    <input type="text" placeholder="Nome">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                </div>
+              
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="tel" name="tel" id="tel" placeholder="Telefone" required>
                 </div>
 
                 <div class="inputBox">
                     <span class="fas fa-envelope"></span>
-                    <input type="email" placeholder="E-mail">
+                    <textarea class="area-text" name="mensagem" id="mensagem" placeholder="Digite sua mensagem..."  required></textarea>
                 </div>
-
-                <div class="inputBox">
-                    <span class="fas fa-phone"></span>
-                    <input type="tel" placeholder="Tel">
-                </div>
-
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/mensagem-enviada.html">
+                <input type="hidden" name="_captcha" value="false">
                 <input type="submit" value="Enviar" class="btn">
-
-            </form>
+                
+            </form> 
+            
+            
+           
         </div>        
     </section>
     <!--Fim Seção Contato-->
@@ -337,11 +343,6 @@
       
     </section>
     <!--Fim Seção Rodapé-->
-
-
-
-
-
 
     <!--Link JS-->
     <script src="js/script.js"></script>

@@ -66,11 +66,19 @@ section{
     color: #fff;
     background: var(--main-color);
     cursor: pointer;
+    border-top-right-radius: 85px;
+    transition: 0.3s;
     
 }
 
 .btn:hover{
     letter-spacing: .2rem;
+    background: rgba(74, 241, 74, 0.774);
+}
+
+.btn:disabled{
+    cursor: not-allowed;
+    background: var(--black);
 }
 
 .header{
@@ -383,10 +391,24 @@ section{
     border: var(--border);
 }
 
+.contato .area-text{
+    width: 100%;
+    margin-left: 1rem;
+    height: 8rem;
+    color: white;
+    background: var(--border);
+    font-size: 1.7rem;
+    font-weight: 300;
+    resize: vertical;
+   
+}
+
+
 .contato .row form .inputBox span{
     color: #fff;
     font-size: 2rem;
     padding-left: 2rem;
+    margin-right: 2rem;
 }
 
 .contato .row form .inputBox input{
